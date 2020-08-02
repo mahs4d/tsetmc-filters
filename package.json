@@ -1,0 +1,46 @@
+{
+  "name": "@mahs4d/tsetmc-filters",
+  "version": "0.0.1",
+  "description": "compiler and helper functions for developing tsetmc filters",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/**/*.js lib/*.js",
+    "lint:fix": "eslint --fix lib/**/*.js lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahs4d/tsetmc-filters.git"
+  },
+  "author": "Mahdi Sadeghi <mail2mahsad@gmail.com> (https://mahs4d.ir/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahs4d/tsetmc-filters/issues"
+  },
+  "homepage": "https://github.com/mahs4d/tsetmc-filters#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "scripts/",
+    "lib/",
+    "LICENSE",
+    "AUTHORS",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "webpack": "^4.44.1",
+    "yargs": "^15.4.1"
+  },
+  "bin": {
+    "tsetmc-filters": "./scripts/cli.js"
+  }
+}
