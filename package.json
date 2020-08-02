@@ -1,11 +1,11 @@
 {
   "name": "@mahs4d/tsetmc-filters",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "compiler and helper functions for developing tsetmc filters",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint lib/**/*.js lib/*.js",
-    "lint:fix": "eslint --fix lib/**/*.js lib/*.js"
+    "lint": "eslint lib/**/*.js lib/*.js scripts/**/*.js scripts/*.js",
+    "lint:fix": "eslint --fix lib/**/*.js lib/*.js scripts/**/*.js scripts/*.js"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "LICENSE",
     "AUTHORS",
     "README.md",
-    "filtermeta/"
+    "data/"
   ],
   "dependencies": {
     "chalk": "^4.1.0",
