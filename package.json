@@ -1,6 +1,6 @@
 {
   "name": "@mahs4d/tsetmc-filters",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "compiler and helper functions for developing tsetmc filters",
   "main": "lib/index.js",
   "scripts": {
@@ -33,10 +33,12 @@
     "lib/",
     "LICENSE",
     "AUTHORS",
-    "README.md"
+    "README.md",
+    "filtermeta/"
   ],
   "dependencies": {
     "chalk": "^4.1.0",
+    "prepend-file": "^2.0.0",
     "webpack": "^4.44.1",
     "yargs": "^15.4.1"
   },
